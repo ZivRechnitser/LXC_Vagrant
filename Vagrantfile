@@ -11,8 +11,8 @@ Vagrant.configure("2") do |config|
     lxc.customize 'utsname', 'test'
     lxc.customize 'cgroup.memory.limit_in_bytes', '1024M'
     lxc.customize 'network.ipv4', '10.22.22.100'
-    end
   end
+end
 
    
 				   
